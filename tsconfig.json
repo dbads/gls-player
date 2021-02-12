@@ -81,6 +81,7 @@
 {
   "extends": "./tsconfig.build.json",
   "compilerOptions": {
+    "jsx": "react",
     "noEmit": true,
     "incremental": false,
     "rootDir": "./",
