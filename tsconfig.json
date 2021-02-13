@@ -94,7 +94,6 @@
   },
   "include": [
     "src",
-    "typings"
   ],
   "exclude": ["node_modules", "dist"],
   "ts-node": {
