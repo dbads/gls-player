@@ -16,6 +16,8 @@
     "version": "npm run _node -- .github/scripts/versionCheck.js"
   },
   "dependencies": {
+    "@types/chrome": "^0.0.130",
+    "@types/jquery": "^3.5.5",
     "child-process": "^1.0.2",
     "tsconfig-paths": "^3.9.0"
   },
