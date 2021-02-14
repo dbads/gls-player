@@ -34,7 +34,7 @@ function startGLS() {
 
   // Welcome tooltip
   const welcome = $(
-    '<div id="step1" style="background-color: #85CAF6; border-radius: 5%; border: 2px solid black; display: inline-block; padding: 10px;"><h3 style="color: white;">Welcome to Google.com</h3><button class="back" style="background-color: #4CAF50;border: none;color: white;padding: 5px 5px;text-align: center;text-decoration: none;display: inline-block;font-size: 12px;margin: 0px 5px 5px 5px;cursor: pointer;">Back </button><button class="next" style="background-color: #4CAF50;border: none;color: white;padding: 5px 5px;text-align: center;text-decoration: none;display: inline-block;font-size: 12px;margin: 0px;cursor: pointer;">Next </button></div>',
+    '<div id="step1" style="background-color: #85CAF6; border-radius: 5%; border: 2px solid black; display: inline-block; padding: 10px;"><h3 style="color: white;">Welcome to Google.com</h3><button class="back" style="background-color: #4CAF50;border: none;color: white;padding: 5px 5px;text-align: center;text-decoration: none;display: inline-block;font-size: 12px;margin: 0px 5px 5px 5px;cursor: pointer;">Back </button><button class="next" style="background-color: #4CAF50;border: none;color: white;padding: 5px 5px;text-align: center;text-decoration: none;display: inline-block;font-size: 12px;margin: 0px;cursor: pointer;">Next </button><span style="float:right;height: 16px;width: 16px;display: inline-block;background-color: #85CAF6;position: relative;transform: rotate(134deg);bottom: -29px;border-width: inherit;border-style: solid;border-color: black black #85CAF6 #85CAF6;"></span></div>',
   );
   welcome.insertBefore('.k1zIA');
 
