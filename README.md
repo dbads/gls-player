@@ -24,3 +24,5 @@ To run the extension in browser, unpack it in the extensions section. follow bel
 4. use buttons back/next to see the next/back step and click on cross in top right corner of tooltip to close/stop the GLS.
 
 [Youtube Demo](https://youtu.be/LJtsoOWGUTA)
+
+#### Feel free to reach out to me at <a href="mailto:deepakbharti@mnnit.ac.in"> deepakbharti@mnnit.ac.in </a> for any queries.
