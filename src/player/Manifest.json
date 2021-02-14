@@ -3,8 +3,12 @@
   "version": "1.0",
   "description": "Guide for google.com",
   "manifest_version": 2,
+  "icons": {
+    "16": "static/icon.jpg", //for 16x16 pixels
+    "48": "static/icon.jpg", //for 48x48 pixels
+    "128": "static/icon.jpg" // for 128x128 pixels
+  },
   "browser_action": {
-    "default_icon": "./static/gls.png",
     "default_popup": "gls.html",
     "default_title": "GLS"
   },
