@@ -1,10 +1,12 @@
-// listen for request to start GLS
+// listen for request to start GLS from extension
 chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
   sendResponse({ message: 'Starting GLS ...', status: 'success' });
   startGLS();
 });
 
-// tooltip creation, handle back/next/cancel operations
+/**
+ * tooltip creation, handle back/next/cancel operations
+ */
 function startGLS() {
   console.log('GLS in progress ...');
 

@@ -1,9 +1,9 @@
 $('#startGLS').on('click', function () {
-  // start gls
+  // send request to startGLS to current active tab, google.com in this case
   chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
-    console.log('sending message from back...');
     if (tabs[0].id) {
-      chrome.tabs.sendMessage(tabs[0].id, 'Start GLS', function (response) {
+      const request = 'start GLS';
+      chrome.tabs.sendMessage(tabs[0].id, request, function (response) {
         console.log(response);
         // restrict starting gls while its already running
         if (response.status === 'success') {
