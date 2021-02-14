@@ -21,4 +21,4 @@ too see the working,
 3. click on the button `startGLS` and it should start the GLS on google.com.
 4. use buttons back/next to see the next/back step and click on cross in top right corner of tooltip to close/stop the GLS.
 
-[Youtube Demo](!)
+[Youtube Demo](https://youtu.be/LJtsoOWGUTA)
