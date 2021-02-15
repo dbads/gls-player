@@ -4,7 +4,7 @@
   "description": "Guide for google.com",
   "manifest_version": 2,
   "browser_action": {
-    "default_icon": "static/icon.jpg",
+    "default_icon": "static/extension.png",
     "default_popup": "gls.html",
     "default_title": "GLS"
   },
