@@ -1,0 +1,51 @@
+{
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "editor.maxTokenizationLineLength":10000000,
+  "editor.insertSpaces": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.probe": ["javascript", "typescript", "html", "markdown", "json"],
+  "eslint.validate": ["json", "javascript", "typescript", "html"],
+  "javascript.validate.enable": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": ["source.formatDocument", "source.fixAll.eslint"]
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": ["source.formatDocument", "source.fixAll.eslint"]
+  },
+  "[json]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": ["source.formatDocument", "source.fixAll.eslint"]
+  },
+  "[html]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": ["source.formatDocument", "source.fixAll.eslint"]
+  },
+  "search.exclude": {
+    "migrations/seed/dump": true
+  },
+  "todo-tree.general.tags": ["TODO", "HACK", "FIXME", "BUG", "NOTE"],
+  "todo-tree.highlights.defaultHighlight": {
+    "type": "line"
+  },
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "check",
+      "foreground": "yellow"
+    },
+    "FIXME": {
+      "foreground": "red",
+      "iconColour": "red",
+      "gutterIcon": true
+    },
+    "NOTE": {
+      "foreground": "green"
+    }
+  },
+  "yaml.format.singleQuote": true,
+  "files.associations": {
+    "*.json": "jsonc", // allow comments in json files
+  }
+}
